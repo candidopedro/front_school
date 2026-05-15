@@ -19,16 +19,37 @@ body {
 }
 
 header {
-    display: flex;
-    flex-direction:column; /* Inverte a ordem: imagem na direita, texto na esquerda */
-    justify-content: space-between; /* Espalha os elementos */
-    padding: 20px;
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 50px;
     background-color: var(--cor_background_2);
 }
 
-/* Para evitar que a imagem fique gigante ou distorcida */
 .fotodeperfil {
-    width: 150px;
+    float: right;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: -2rem;
+    width: 200px;
     height: auto;
-    border-radius: 50%; /* Deixa a foto redonda, estilo GitHub */
+    border-radius: 50%;
+}
+
+main {
+    padding: 2rem;
+}
+
+summary {
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+footer {
+    padding: 5rem;
+    background-color: var(--cor_background_2);
 }
