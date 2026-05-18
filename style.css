@@ -18,6 +18,12 @@ body {
     font-family: "Cabin", sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
 header {
     border-radius: 10px;
     margin: 2rem;
@@ -25,40 +31,20 @@ header {
     background-color: var(--cor_background_2);
 }
 
-.fotodeperfil {
-    float: right;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: -2rem;
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-}
-
 main {
     padding: 4rem;
 }
 
+main section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+/* END */
+
 footer {
-    padding: 5rem;
+    padding: 3.5rem;
     background-color: var(--cor_background_2);
 }
-
-main li {
-    margin: 2rem;
-}
-
-main h3 {
-    padding: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0rem;
-}
-
-main h2 {
-    margin-top: 2rem;
-}
-
-main h4 {
-    margin-top: 0rem;
-}
-
