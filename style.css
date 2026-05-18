@@ -36,20 +36,29 @@ header {
 }
 
 main {
-    padding: 2rem;
-}
-
-summary {
-    margin: 0.5rem;
-    cursor: pointer;
-}
-
-ol {
-    margin: 1rem;
-    margin-left: 2rem;
+    padding: 4rem;
 }
 
 footer {
     padding: 5rem;
     background-color: var(--cor_background_2);
 }
+
+main li {
+    margin: 2rem;
+}
+
+main h3 {
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+main h2 {
+    margin-top: 2rem;
+}
+
+main h4 {
+    margin-top: 0rem;
+}
+
